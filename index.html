@@ -1,0 +1,241 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Search Any Email</title>
+
+    <link rel="stylesheet" href="./bs5/css/bootstrap.css">
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="container">
+            <div class="row">
+                <div class=" nav-row">
+                    <img class="logo" alt="logo" src="img/pngs/Logo@2x.png">
+                    <div class="nav-icons">
+                        <img class="search" src="img/pngs/icn_search@2x.png">
+                        <img class="person" src="img/pngs/icn_person@2x.png">
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <h1 class="header-title">Search Any Email Address</h1>
+                <h4 class="sub-title"><b>Start Here</b> - Look up the owners's name, photos and online profiles. See what you find!</h4>
+            </div>
+
+            <div class="row no-gutters">
+                <div class="col-sm-8 col-lg-9 col-xl-10">
+                    <form class="form-inline email-form" action="result.html" method="POST" id="formEmail">
+            
+                        <input id="email" class="form-control email-form" type="email" name="email" placeholder="Email" required>
+                    </form>
+                </div>
+                <div class="col-sm-4 col-lg-3 col-xl-2">
+                    <div class="card-block">
+                        <button class="btn btn-primary btn-block email-button" type="submit" onclick="handleSubmit()" form="formEmail">GO!</button>
+                    </div>
+                </div>
+            </div>
+                <div class="row">
+                    <div class="legend">
+                        <img class="lock-img" alt="logo" src="img/svgs/lock.svg">
+                        <p><b>Enter any Email Address. They won't be notified.</b></p>
+                    </div>
+                </div>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <div class="container">
+            <div class="row">
+                <div class="container">
+                    <h1 class="result-title">Reverse Email Lookup</h1>
+                    <h4 class="feature-text">
+                        Lorem ipsum dolor sit amet, consectetur 
+                        adipisicing elit, sed do eiusmod tempor 
+                        incididunt ut labore et dolore magna
+                        aliqua. Ut enim ad minim veniam, quis 
+                        nostrud exercitation ullamco laboris 
+                        nisi ut aliquip ex ea commodo consequat.
+                    </h4>
+                </div>
+            </div>
+
+            <div class="row feature-row">
+                <!-- row 1 -->
+                <div class="col-sm-6">
+                    <!-- feature 1 -->
+                    <div class="row no-gutters">
+                        <div class="col-auto">
+                            <div class="circle">
+                                <h1>1</h1>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card-block px-2">
+                                <div class="feature-title">
+                                    <p id="name">Lorem ipsum</p>
+                                </div>
+                                <div class="feature-description">
+                                    <p>
+                                        Lorem ipsum dolor sit amet,
+                                        consectetur adipisicing elit,
+                                        sed do eiusmod tempor incididunt
+                                        ut labore et dolore magna aliqua.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- feature 2 -->
+                    <div class="row no-gutters">
+                        <div class="col-auto">
+                            <div class="circle">
+                                <h1>2</h1>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card-block px-2">
+                                <div class="feature-title">
+                                    <p id="name">Lorem ipsum</p>
+                                </div>
+                                <div class="feature-description">
+                                    <p>
+                                        Lorem ipsum dolor sit amet,
+                                        consectetur adipisicing elit,
+                                        sed do eiusmod tempor incididunt
+                                        ut labore et dolore magna aliqua.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- feature 3 -->
+                    <div class="row no-gutters">
+                        <div class="col-auto">
+                            <div class="circle">
+                                <h1>3</h1>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card-block px-2">
+                                <div class="feature-title">
+                                    <p id="name">Lorem ipsum</p>
+                                </div>
+                                <div class="feature-description">
+                                    <p>
+                                        Lorem ipsum dolor sit amet,
+                                        consectetur adipisicing elit,
+                                        sed do eiusmod tempor incididunt
+                                        ut labore et dolore magna aliqua.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- row 2 -->
+                <div class="col-sm-6">
+                    <!-- feature 4 -->
+                    <div class="row no-gutters">
+                        <div class="col-auto">
+                            <div class="circle">
+                                <h1>4</h1>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card-block px-2">
+                                <div class="feature-title">
+                                    <p id="name">Lorem ipsum</p>
+                                </div>
+                                <div class="feature-description">
+                                    <p>
+                                        Lorem ipsum dolor sit amet,
+                                        consectetur adipisicing elit,
+                                        sed do eiusmod tempor incididunt
+                                        ut labore et dolore magna aliqua.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- feature 5 -->
+                    <div class="row no-gutters">
+                        <div class="col-auto">
+                            <div class="circle">
+                                <h1>5</h1>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card-block px-2">
+                                <div class="feature-title">
+                                    <p id="name">Lorem ipsum</p>
+                                </div>
+                                <div class="feature-description">
+                                    <p>
+                                        Lorem ipsum dolor sit amet,
+                                        consectetur adipisicing elit,
+                                        sed do eiusmod tempor incididunt
+                                        ut labore et dolore magna aliqua.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- feature 6 -->
+                    <div class="row no-gutters">
+                        <div class="col-auto">
+                            <div class="circle">
+                                <h1>6</h1>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card-block px-2">
+                                <div class="feature-title">
+                                    <p id="name">Lorem ipsum</p>
+                                </div>
+                                <div class="feature-description">
+                                    <p>
+                                        Lorem ipsum dolor sit amet,
+                                        consectetur adipisicing elit,
+                                        sed do eiusmod tempor incididunt
+                                        ut labore et dolore magna aliqua.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10 d-flex justify-content-center">
+                    <p>Lorem ipsum dolor sit amet, consectetur
+                        adipisicing elit, sed do eiusmod tempor
+                        incididunt ut labore et dolore magna
+                        aliqua. Ut enim ad minim veniam,
+                        quis nostrud exercitation ullamco
+                        laboris nisi ut aliquip ex ea commodo
+                        consequat.</p>
+                </div>
+                <div class="col-md-2 d-flex justify-content-center">
+                    <h3>Terms | Privacy</h3>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./bs5/js/bootstrap.js"></script>
+    <script type="text/javascript" src="./js/index.js"></script>
+</body>
+</html>
